@@ -6,4 +6,4 @@
 # source sgx-sdk-build/sgxsdk/environment
 ./autoconf.bash
 ./configure --enable-sgx-simulation
-make -j4
+make -j"${nproc}"
